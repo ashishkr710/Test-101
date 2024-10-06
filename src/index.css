@@ -1,0 +1,36 @@
+/* frontend/src/index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
